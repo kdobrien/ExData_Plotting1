@@ -1,3 +1,8 @@
+# Exploratory Data Analysis - Project 1
+
+This repository has been cloned from <a href="https://github.com/rdpeng/ExData_Plotting1">https://github.com/rdpeng/ExData_Plotting1</a>
+
+
 ## Introduction
 
 This assignment uses data from
