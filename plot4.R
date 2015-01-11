@@ -1,4 +1,4 @@
-# plot2.R - create grap of Global Active Power versus time
+# plot4.R - create 4 graphs
 
 # Read the data into a data frame
 data <- read.csv("household_power_consumption.txt", 
@@ -34,9 +34,9 @@ plot(timedate,data2$Voltage,xlab = "datetime",ylab="Voltage",type="l")
 ########
 # Plot 3
 # Use the timedate values to get the X axis range
-xrange = range(timedate)
+xrange <- range(timedate)
 # Use the Sub_metering_1 data to ge the Y range since it has the widest dynamic range
-yrange = range(data2$Sub_metering_1,na.rm = TRUE)
+yrange <- range(data2$Sub_metering_1,na.rm = TRUE)
 
 # Now get the X data for the 3 plots.  We will need to filter out na values for each set of edata
 non_na_1 <- !is.na(data2$Sub_metering_1)

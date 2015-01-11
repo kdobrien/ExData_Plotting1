@@ -1,4 +1,4 @@
-# plot2.R - create grap of Global Active Power versus time
+# plot2.R - create graph of Global Active Power versus time
 
 # Read the data into a data frame
 data <- read.csv("household_power_consumption.txt", 
